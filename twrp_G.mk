@@ -19,8 +19,8 @@ PRODUCT_RELEASE_NAME := G
 
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953
